@@ -101,10 +101,10 @@ h1 {
 .input {
     display: flex;
     flex-flow: column wrap;
-    width: 40%;
+    width: 20vw;
     font-size: 0.7rem;
     text-transform: uppercase;
-    opacity: 50%;
+    opacity: 90%;
 
 }
 
@@ -126,6 +126,7 @@ input {
 input:focus {
     outline: none;
     border: 3px solid #191415;
+    box-shadow: 0 5px 10px -1px #191415;
 }
 
 button {
@@ -147,6 +148,7 @@ button:hover {
 .log-in {
     display: flex;
     gap: 5px;
+    font-weight: 600;
 }
 
 a {
